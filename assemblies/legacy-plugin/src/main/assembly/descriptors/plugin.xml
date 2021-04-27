@@ -1,20 +1,4 @@
-<assembly>
-    <id>plugin</id>
-    <baseDirectory>pentaho-big-data-plugin</baseDirectory>
-    <formats>
-        <format>zip</format>
-    </formats>
-    <fileSets>
-        <fileSet>
-            <directory>src/main/assembly/resources</directory>
-            <outputDirectory>/</outputDirectory>
-        </fileSet>
-        <fileSet>
-            <directory>target/plugins/pentaho-big-data-plugin/hadoop-configurations</directory>
-            <outputDirectory>/hadoop-configurations</outputDirectory>
-        </fileSet>
-    </fileSets>
-    <dependencySets>
+
         <dependencySet>
             <outputDirectory>/</outputDirectory>
             <unpack>false</unpack>
